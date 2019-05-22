@@ -1,0 +1,67 @@
+{
+  "spatialReferences": [
+    {
+      "wkid": "4326",
+      "isDefault": true,
+      "label": "GCS_WGS_1984",
+      "alias": "Decimal Degrees",
+      "outputUnit": "DECIMAL_DEGREES",
+      "transformationWkid": "",
+      "transformationLabel": "Transformation name",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": true,
+        "isGeographicUnit": true,
+        "isProjectedCS": false,
+        "isProjectUnit": false,
+        "spheroidCS": 4326,
+        "defaultUnit": "Degree",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "4326",
+      "isDefault": false,
+      "label": "GCS_WGS_1984",
+      "alias": "Degree Minute Seconds",
+      "outputUnit": "DEGREE_MINUTE_SECONDS",
+      "transformationWkid": "",
+      "transformationLabel": "Transformation name",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": true,
+        "isGeographicUnit": true,
+        "isProjectedCS": false,
+        "isProjectUnit": false,
+        "spheroidCS": 4326,
+        "defaultUnit": "Degree",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "25830",
+      "isDefault": false,
+      "label": "ETRS_1989_UTM_Zone_30N",
+      "alias": "ETRS89 30N",
+      "outputUnit": "METER",
+      "transformationWkid": "",
+      "transformationLabel": "Transformation name",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4258,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    }
+  ],
+  "decimalPlaces": 3,
+  "addSeparator": true,
+  "displayOrderLonLat": true
+}

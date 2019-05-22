@@ -1,0 +1,32 @@
+<div>
+  <!-- solve the bug of style delay loading -->
+  <div class="header-section jimu-float-leading" data-dojo-attach-point="headerNode">
+    <img class="logo jimu-float-leading jimu-leading-margin-1" data-dojo-attach-point="logoNode" data-dojo-attach-event="onload:_onLogoLoad">
+    <div class="titles jimu-float-leading jimu-leading-margin-1" data-dojo-attach-point="titlesNode">
+      <div class="jimu-title jimu-float-leading" data-dojo-attach-point="titleNode"></div>
+      <div class="jimu-subtitle jimu-float-leading jimu-leading-margin-3" data-dojo-attach-point="subtitleNode">
+          <img class="jimu-subtitle jimu-float-leading jimu-leading-margin-3" data-dojo-attach-point="subtitleNode" src="images/nco.png">
+        </div>
+    </div>
+    <div class="links jimu-float-leading jimu-leading-margin-2" data-dojo-attach-point="linksNode">
+      <div class="dynamic-section jimu-float-leading" data-dojo-attach-point="dynamicLinksNode"></div>
+      <div class="signin-section jimu-float-leading" data-dojo-attach-point="signInSectionNode">
+        <a href="#" class="jimu-link" data-dojo-attach-event="onclick:_onSigninClick"
+        data-dojo-attach-point="signinLinkNode">${nls.signin}</a>
+        <a href="" target="_blank" class="jimu-link" data-dojo-attach-event="onclick:_onUserNameClick" data-dojo-attach-point="userNameLinkNode"></a>
+        <a href="#" class="jimu-link" data-dojo-attach-event="onclick:_onSignoutClick" data-dojo-attach-point="signoutLinkNode">${nls.signout}</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-section jimu-float-leading" data-dojo-attach-point="containerNode"></div>
+  <!-- MEJORAS NCO -->
+  <div class="languages-section" data-dojo-attach-point="languagesNode">
+	<div class="flag-lang">
+		<table>
+			<tr><td><a href="#" data-dojo-attach-point="aImgFlagES"><img src="" data-dojo-attach-point="imgFlagES"></img></a></div></td></tr>
+			<tr><td><a href="#" data-dojo-attach-point="aImgFlagEN"><img src="" data-dojo-attach-point="imgFlagEN"></img></a></div></td></tr>
+		<table>
+	</div>
+  </div>
+  <!-- MEJORAS NCO -->
+</div>

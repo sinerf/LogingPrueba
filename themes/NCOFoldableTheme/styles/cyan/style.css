@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'AvantGarde Bk Bt';
+  src: url('../../font/AVGARDN.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url("../../font/avenir-next/bb590848-4012-46d6-a8d5-48c9893a176b.woff2") format("woff2"),
+  src:  url("../../font/avenir-next/3a42a252-67ff-4186-88cf-762f56719ca1.woff") format("woff"),
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url('../../font/AvenirNext.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jimu-widget {
+
+    color: #ffffff !important;
+}
+.jimu-widget-frame.jimu-container {
+        background: -moz-linear-gradient(top, rgba(54,75,95,1) 0%, rgba(54,75,95,0.7) 100%) !important; /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(54,75,95,1) 0%,rgba(54,75,95,0.7) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(54,75,95,1) 0%,rgba(54,75,95,0.7) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#364b5f', endColorstr='#00364b5f',GradientType=0 ) !important; /* IE6-9 */
+
+    /* border-radius: .25rem; */
+}
+
+.jimu-tab3 .tab-item-td {
+    color: #ffffff !important;
+}
+
+.jimu-widget-add-data .add-file-pane .generalize-options .jimu-checkbox .label {
+    color: white !important;
+}
+
+.jimu-widget-header-controller .jimu-title{
+	color: #FFFFFF !important;
+	font-family: 'Avenir Light' !important;
+        text-shadow: 3px 2px 2px #b1b1b161;
+}
+/*
+  background-color: 364B5F;
+*/
+.jimu-main-background{
+  background-color: #364B5F;
+}
+
+.jimu-widget-header-controller .jimu-drop-menu{
+  background-color: #364B5F;
+}
+.jimu-widget-header-controller .jimu-drop-menu .menu-item {
+	border-top: 1px solid #71A7D3;
+}
+.jimu-header-more-popup {
+	background-color: #71A7D3;
+}
+.jimu-header-more-popup .icon-node {
+	background-color: 364B5F;
+}
+.jimu-header-more-popup .close {
+	background-color: #71A7D3;
+}
+.jimu-header-more-popup .close-inner {
+	background-color: 364B5F;
+}
+/*
+  background-color: 364B5F;
+  background-color: #16366F;
+  #2459B5
+*/
+.jimu-on-screen-widget-panel>.jimu-panel-title,
+.jimu-foldable-panel>.jimu-panel-title,
+.jimu-title-panel>.title{
+  background: #71A7D3;
+}
+
+/*
+  color: #e8e7e6;
+*/
+.jimu-widget-header-controller .jimu-subtitle{
+  color: #D1D7E2;
+}
+
+/*
+  color: #e8e7e6;
+  font-family: "RooneySans-Medium";
+*/
+.jimu-widget-header-controller .links .jimu-link{
+  color: #D1D7E2;
+}
+
+.jimu-widget-header-controller .signin-section .jimu-link{
+  color: #ffffff;
+}
+
+.jimu-widget-header-controller .icon-node{
+  border-right: 0px solid transparent !important;
+}
+
+.jimu-widget-header-controller .icon-node.jimu-state-selected{
+  background-color: #8db8b9 !important;
+}
+
+/*
+  background-color: 364B5F;
+*/
+/*
+.esriPopup .titlePane {
+  background: -webkit-linear-gradient(#16366F, #1F4D9E);
+  background: -moz-linear-gradient(#16366F, #1F4D9E);
+  background: -o-linear-gradient(#16366F, #1F4D9E);
+}
+*/
+
+.jimu-widget-header-controller .icon-node{
+  background-color: transparent !important;
+        /*opacity: 0.8 !important;*/
+}
+
+.jimu-widget-header-controller .icon-node:hover{
+  background-color: #71A7D3 !important;
+}
+
+.jimu-widget-header-controller .icon-node.jimu-state-selected{
+  background-color: #71A7D3 !important;
+  /*opacity: 0.9;*/
+  border: none;
+  border-top: 3px solid #71A7D3;
+}
+
+/*
+	filter: drop-shadow(0px 0px 5px #FFFF00);
+	-webkit-filter: drop-shadow(0px 0px 5px #FFFF00);
+    -moz-filter: drop-shadow(0px 0px 5px #FFFF00);
+    -ms-filter: drop-shadow(0px 0px 5px #FFFF00);
+    -o-filter: drop-shadow(0px 0px 5px #FFFF00);
+	
+	text-shadow: -3px 2px #5C84BC;
+*/
+
+
+.jimu-panel {
+    border: 2px solid #364B5F;
+    box-shadow: 0 0 8px 0 #364B5F;
+    height: 97% !important;
+    background-color: #ffffff;
+}
+
+/* MEJORAS NCO */
+.esriPopup .titlePane {
+    background: #f7f7f7;
+}
+
+.esriPopup .titlePane .title {
+    color: #000000;
+}
+
+.esriPopup .titleButton.next {
+    background-position: -40px 0;
+}
+
+.esriPopup .titleButton.prev {
+    background-position: -55px -20px;
+}
+
+.esriPopup .contentPane {
+  background: -webkit-linear-gradient(#f7f7f7, #dddddd) !important;
+  background: -moz-linear-gradient(#f7f7f7, #dddddd) !important;
+  background: -o-linear-gradient(#f7f7f7, #dddddd) !important;
+  background: linear-gradient(#f7f7f7, #dddddd) !important;
+}
+
+.esriPopup .actionsPane {
+    background: #dddddd;
+}
+
+.esriPopup .titleButton.close {
+    right: -10px;
+    top: -10px;
+    background: url("../../images/close_popup.png") no-repeat center !important;
+    width: 20px;
+    height: 20px;
+}
+
+.esriPopup .actionList .popup-menu-button {
+	display: none !important;
+}
+/* MEJORAS NCO */

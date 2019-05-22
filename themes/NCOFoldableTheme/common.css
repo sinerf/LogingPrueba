@@ -1,0 +1,212 @@
+@import url("panels/FoldablePanel/style.css");
+@import url("panels/DockablePanel/style.css");
+/********** styles for simple panel***********/
+.jimu-simple-panel{
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* css for jimu-btn */
+
+.jimu-btn {
+    background-color: #364B5F !important;
+    color: #ffffff;
+    min-width: 0%;
+}
+
+
+.jimu-btn-vacation{
+  border: 1px solid #485566;
+  background-color: #fff;
+  color: #485566;
+}
+
+/*.jimu-btn:hover{
+  background-color: #DB8239 !important;
+  color: #ffffff;
+}*/
+.jimu-btn:hover{
+  background-color: #71A7D3 !important;
+  color: #ffffff;
+}
+
+.jimu-btn-vacation:hover{
+  background-color: #f4f4f4;
+  color: #485566;
+}
+
+.jimu-btn:active{
+  background-color: #485566;
+  color: #ffffff;
+}
+
+.jimu-btn.jimu-state-disabled{
+  background-color: #adadad;
+  color: #d8d8d8;
+}
+
+.jimu-btn.jimu-priority-secondary{
+  background-color: #f5f5f5;
+  color: #636363;
+  border: 1px solid #cbcbcb;
+}
+
+.jimu-btn.jimu-priority-secondary:hover{
+  background-color: #ffffff;
+  color: #636363;
+  border: 1px solid #cbcbcb;
+}
+
+.jimu-btn.jimu-priority-secondary:active{
+  background-color: #ebebeb;
+  color: #636363;
+  border: 1px solid #cbcbcb;
+}
+
+.jimu-btn.jimu-priority-secondary.jimu-state-disabled{
+  background-color: #ffffff;
+  color: #d0d0d0;
+  border: 0;
+}
+
+/*
+.esriControlsBR .logo-med {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 65px;
+    height: 36px;
+    z-index: 30;
+    background-image: url('./images/logo-med.png');
+    cursor: pointer;
+}
+*/
+.esriControlsBR .logo-med {
+    display: none;
+}
+
+.jimu-main-font {
+    font-family: "Avenir Light" !important;
+}
+
+.jimu-foldable-panel .foldable-btn{
+    display: none !important;
+}
+
+.jimu-foldable-panel>.jimu-panel-title {
+	cursor: default !important;
+}
+
+.jimu-foldable-panel .max-btn {
+	cursor: pointer !important;
+}
+
+.jimu-foldable-panel .close-btn {
+	cursor: pointer !important;
+}
+
+/*
+	margin-left: 1em;
+*/
+/*
+.jimu-leading-margin1 {
+	margin-left: 0.25em;
+}
+*/
+
+/*
+    margin-left: 2.5em;
+*/
+/*
+.jimu-leading-margin25 {
+    margin-left: 2em;
+}
+*/
+
+/*
+    margin-left: 5em;
+*/
+/*
+.jimu-leading-margin5 {
+    margin-left: 3em;
+}
+*/
+
+.jimu-leading-margin-1 {
+	margin-left: 0.5em;
+}
+
+.jimu-leading-margin-2 {
+    margin-left: 2em;
+}
+
+.jimu-leading-margin-3 {
+    margin-left: 2em;
+}
+
+.esriPopup .titleButton.maximize {
+	display: none !important;
+}
+
+/** INICIO: Estilos ventana "Acerca de" **/
+.h1_about {
+	margin-top: 0 !important;
+	text-align: center;
+    color: white;
+}
+
+.h2_about {
+	margin-top: 20px !important;
+    color: white;
+}
+
+.li-about-nco {
+	color: white;
+}
+
+.li-vacio-about-nco {
+	list-style:none;
+	line-height: 15px;
+}
+
+.separador1_about {
+	margin-bottom: 12px;
+}
+
+.link1_about {
+	margin-top: 5px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.link2_about {
+	text-align: center;
+	font-size: 14px;
+	color: rgb(22, 54, 111);
+	margin-bottom: 8px;
+}
+
+.logo_esri_about {
+	margin-bottom: 5px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.logo1_ign_about {
+	text-align: center;
+}
+
+.logo1_ign_about  img {
+    height: 170px;
+}
+
+.logo2_ign_about {
+	margin-bottom: 5px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.logo2_ign_about  img {
+/*	height: 55px; */
+}
+/** FIN: Estilos ventana "Acerca de" **/
